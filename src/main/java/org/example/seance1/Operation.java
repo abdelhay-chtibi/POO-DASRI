@@ -1,4 +1,4 @@
-package org.example;
+package org.example.seance1;
 
 public class Operation {
     public static void main(String[] args) {
@@ -13,5 +13,10 @@ public class Operation {
         double div;
         div = (double) x / y;
         System.out.println("Resultat de la division: "+ div);
+
+        // Round
+        System.out.println(Math.round(4.5));  // Affiche 5
+        System.out.println(Math.round(4.4));  // Affiche 4
+
     }
 }
