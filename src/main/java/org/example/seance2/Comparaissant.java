@@ -9,7 +9,7 @@ public class Comparaissant {
         System.out.println(y);
         System.out.println(z);
 
-        System.out.println(x =! false); // true
+        System.out.println(x = !false); // true
         System.out.println(x && y); //false
         System.out.println(x || y); // true
         System.out.println(!y); // true
