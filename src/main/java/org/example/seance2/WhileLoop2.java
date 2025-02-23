@@ -7,7 +7,7 @@ public class WhileLoop2 {
         int i = 0;
         while (x >= y) {
             x = x / 2;
-            ++i;
+            i++;
         }
         System.out.println(i);
         System.out.println(x);
