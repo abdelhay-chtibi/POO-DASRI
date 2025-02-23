@@ -15,7 +15,7 @@ public class Comparaissant {
         System.out.println(!y); // true
         System.out.println(x && (y || z)); // true
         System.out.println((x && y) || z); // false || true == true
-        System.out.println((!x || ! y) && (!z)); // true && false == false
+        System.out.println((!x || !y) && (!z)); // true && false == false
         System.out.println(!((x && y) || z)); // !(false || true) == ! true == false
 
     }
