@@ -3,7 +3,7 @@ package org.example.seance3;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class TP1 {
     public static void main(String[] args) {
         double sum = 0;
 
@@ -30,13 +30,13 @@ public class Main {
         System.out.println(Arrays.toString(notes));
 
        if (avg < 10){
-           System.out.println("Class pourrie .");
+           System.out.println("Class pourrie.");
        } else if (avg < 12) {
-           System.out.println("Class passable .");
+           System.out.println("Class passable.");
        } else if (avg < 15) {
-           System.out.println("Class moyenne");
+           System.out.println("Class moyenne.");
        }else {
-           System.out.println("Trés bon class");
+           System.out.println("Trés bon class.");
        }
         scanner.close();
     }
