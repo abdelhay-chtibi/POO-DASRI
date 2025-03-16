@@ -5,25 +5,27 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        double sum = 0;
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Entrez le nombre des étudiants: ");
-        int a = scanner.nextInt();
+        int numStudent = scanner.nextInt();
 
-        double[] notes = new double[a];
+        double[] notes = new double[numStudent];
 
-        for (int i = 0; i < a; i++ ){
+        for (int i = 0; i < numStudent; i++ ){
             System.out.print("Entrez la note de étudiant numero " + ( i + 1 ) + " : ");
             notes[i] = scanner.nextDouble();
         }
 
-        double sum = 0;
+
         for(double n : notes) {
             sum = sum + n;
         }
 
         // La somme de tableau
         //System.out.println(sum);
-        double avg = sum / a;
+        double avg = sum / numStudent;
         System.out.println("La moyenne est: " + avg);
         System.out.println(Arrays.toString(notes));
 
